@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kalkulator Aesthetic</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="card">
+    <h2>🌸 Pink Calculator</h2>
+
+    <form method="POST">
+        <input type="number" name="angka1" placeholder="Angka pertama..." required>
+        <input type="number" name="angka2" placeholder="Angka kedua..." required>
+
+        <select name="operasi">
+            <option value="tambah">➕ Tambah</option>
+            <option value="kurang">➖ Kurang</option>
+            <option value="kali">✖ Kali</option>
+            <option value="bagi">➗ Bagi</option>
+        </select>
+
+        <button type="submit">✨ Hitung</button>
+    </form>
+
+    {% if hasil is not none %}
+        <div class="result">
+            {{ hasil }}
+        </div>
+    {% endif %}
+</div>
+
+</body>
+</html>

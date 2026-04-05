@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Glass effect card */
+.card {
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    width: 320px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(255, 0, 100, 0.3);
+    text-align: center;
+    color: white;
+}
+
+/* Title */
+.card h2 {
+    margin-bottom: 20px;
+}
+
+/* Input */
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: rgba(255,255,255,0.6);
+    font-size: 14px;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #ff4d88, #ff0066);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Hover glow */
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #ff4d88;
+}
+
+/* Result */
+.result {
+    margin-top: 15px;
+    padding: 12px;
+    border-radius: 10px;
+    background: #ffe4ec;
+    color: #c2185b;
+    font-weight: bold;
+    font-size: 18px;
+}
