@@ -9,6 +9,7 @@ Aplikasi kalkulator sederhana berbasis web menggunakan Flask.
 - Pembagian
 
 ## Cara Menjalankan
-1. Install Flask
-2. Jalankan: python app.py
-3. Buka http://127.0.0.1:5000
+1. Aktifkan virtual environment(venv)
+2. Install Flask
+3. Jalankan: python app.py
+4. Buka http://127.0.0.1:5000
